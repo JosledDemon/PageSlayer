@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">                                                 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, js">
+    <meta name="description" content="Empresa dedicada a la venta de laptops gamers">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>Venta de Laptops Gamer</title>
+
+</head>
+
+<body>
+        <div id="cursor"></div>
+
+        <script>
+            let cursor = document.querySelector('#cursor');
+            let body = document.querySelector('body');
+            document.addEventListener('mousemove', (e) => {
+                let x = e.clientX;
+
+                let y = e.clientY; 
+
+                cursor.style.top = y + 'px';
+                cursor.style.left = x + 'px';
+            });
+        </script>
+    <header>
+        <h1 class="neon">LAPTOPS TOP GAMA ALTA</h1>  
+        
+        <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#inicio">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Categorias">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactos">Contacto</a>
+                </li>
+                </ul>
+                <span class="navbar-text">
+                THANKS FOR YOU 
+                </span>
+            </div>
+            </div>                                                               
+                                                                                                
+        </nav>
+    </header>
+
+    <section id="inicio" class="intro">  
+        <h2 class="title">Bienvenidos</h2>                                                                           
+        <p>VENTAS DE EQUIPOS GAMERS Y PROFESIONALES PARA TODO TIPO DE USO</p>
+    </section>
+    <br>
+    <section id="productos" class="gallery">
+        <h2>LAPTOPS GAMERS</h2> 
+        <div class="producto">
+            <img src="img/laptopgamer1.jpg" alt="LaptopGamer 1"> 
+            <figcaption>
+                <h2>LAPTOP MSI Titan 18 HX A14VIG</h2> 
+                <ul> <!-- Lista de características -->
+                    <li>Intel® Core™ i9-14900HX</li>
+                    <li>Windows 11 Pro</li>
+                    <li>NVIDIA® GeForce RTX™ 4090 16GB GDDR6</li>
+                    <li>18" iPS UHD+ (3840x2400) 120Hz, DCI-P3</li>
+                    <li>4TB NVMe PCIe Gen4x4 (2x2TB)</li>
+                    <li>128GB DDR5 5200MHz (4x32GB)</li>
+                </ul>
+                <strong>Precio:</strong> S/ 28.100.00<br>
+                <BR>
+
+                    <a href="#productos" class="btn-neon2 text-center" >
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        COMPRAR
+                    </a> 
+            </figcaption>
+        </div>  
+        
+        <div class="producto">  
+            <img src="img/laptopgamer2.jpg" alt="LaptopGamer 2">
+            <figcaption>
+                <h2>LAPTOP MSI Raider GE78 HX 14VHG-887</h2>
+                <ul>
+                    <li>Intel® Core™ i9-14900HX</li>
+                    <li>Windows 11 Pro</li>
+                    <li>NVIDIA® GeForce RTX™ 4080, GDDR6 12GB</li>
+                    <li>17" QHD+(2560×1600), 240Hz - IPS</li>
+                    <li>2TB SSD PCIe Gen4 / RAM 32GB DDR5</li>
+                    <li>Intel® Killer™ Wi-Fi 7 BE1750, Bluetooth v5.4</li>
+                    <li>32GB DDR5 (2X16GB)</li>
+                </ul>
+                <strong>Precio:</strong> S/ 17.500.00<br>
+                <BR>
+
+                    <a href="#productos" class="btn-neon2 text-center">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        COMPRAR
+                    </a>
+            </figcaption>
+        </div>
+        <div class="producto">
+            <img src="img/laptopgamer3.jpg" alt="LaptopGamer 3">
+            <figcaption>
+                <h2>LAPTOP MSI Vector 17 HX A14VGG-255</h2>
+                <ul>
+                    <li>Intel® Core™ i9 14900HX</li>
+                    <li>Windows 11 Home</li>
+                    <li>NVIDIA® GeForce RTX™ 4070, GDDR6 8GB</li>
+                    <li>17" 16:10 QHD+ (2560 x 1440), 240Hz - IPS</li>
+                    <li>1TB SSD M.2 NVMe PCIe Gen4</li>
+                    <li>RAM 32GB DDR5 5600Mhz</li>
+                </ul>
+                <strong>Precio:</strong> S/ 10.600.00<br>
+                <BR>
+
+                    <a href="#productos" class="btn-neon2 text-center">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        COMPRAR
+                    </a>
+            </figcaption>
+        </div>
+        <div class="producto">
+            <img src="img/laptopgamer4.jpg" alt="LaptopGamer 4">
+            <figcaption>
+                <h2>LAPTOP MSI Pulse 17 AI C1VGKG-056</h2>
+                <ul>
+                    <li>Intel® Core™ Ultra 7-155H</li>
+                    <li>Windows 11 Home</li>
+                    <li>NVIDIA® GeForce RTX™ 4070, GDDR6 8GB</li>
+                    <li>17" 16:10 QHD+ (2560 x 1440), 240Hz - IPS</li>
+                    <li>1TB SSD M.2 NVMe PCIe Gen4</li>
+                    <li>RAM 16GB DDR5 5600Mhz</li>
+                </ul>
+                <strong>Precio:</strong> S/ 9.600.00<br>
+                <BR>
+
+                <a href="#productos" class="btn-neon2 text-center">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    COMPRAR
+                </a>
+            </figcaption>
+        </div>
+        </section>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <section id="Categorias">
+        <h2>Categorías</h2>
+        <div class="Categoria">
+            <div class="Categoria-item">
+                <h3>GAMA TOP ALTA</h3>
+                <p>Son equipos de máximo rendimiento, pensados para los usuarios más exigentes. Están diseñados para tareas complejas como renderizado 3D o gaming avanzado, con lo último en tecnología y un enfoque en exclusividad, lujo y eficiencia. Además, destacan por su diseño ultraligero y resistente.</p>
+                <a href="#productos" class="btn-neon text-center">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    VER MAS
+                </a>
+            </div>
+            <div class="Categoria-item">
+                <h3>GAMA ALTA</h3>
+                <p>Son dispositivos premium diseñados para quienes buscan un gran rendimiento y portabilidad. Ofrecen una excelente calidad de construcción, pantallas nítidas y son ideales para tareas profesionales como diseño, edición de video y multitarea. Combinan estilo y funcionalidad, siendo elegantes y duraderos.</p>
+                <a href="#productos" class="btn-neon text-center">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    VER MAS
+                </a>
+            </div>
+        
+    </section> 
+
+
+    <div class="content">
+        <h3 class="logo">Contact<span>Os</span></h3>
+
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="contactos" id="contactos">
+                    <p>
+                        <laber>Nombre:</laber>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Hotmail:</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Celular:</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Estado Civil:</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                        <label>Mensaje:</label>
+                        <textarea name="message" row="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más Información</h4>
+                <ul>
+                    <li><img src="img/mapa.png" alt="mapa" width="20px">
+                        Peru,Lima</li>
+                    <li><img src="img/telefono-inteligente.png" alt="mapa" width="20px">
+                        900 639 742</li>
+                    <li><img src="img/gmail.png" alt="mapa" width="20px">
+                        Ventadelaptops@gmail.com</li>
+                </ul>
+                <p>Hola mucho gusto somos la empresa que se encarga de exportar y vender laptops gamer de categorias alta , top alta. Cualquier consulta nos podria enviar un mensaje y con gusto le enviamos toda la informacion sobre los equipos<br><p>MUCHAS GRACIAS.</p>
+                <p>Venta de Laptops.com</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+
+<footer>
+    <p>&copy; 2024 LAPTOPS GAMERS Y PROFESIONALES PARA TODO TIPO DE TRABAJOS - Todos los derechos reservados</p>
+    <a href="https://www.facebook.com/">
+        <img src="img/facebook.png" alt="facebook" width="40px">
+    </a>
+
+    <a href="https://www.instagram.com/?hl=es">
+        <img src="img/instagram.png" alt="instagram" width="40px">
+    </a>
+
+    <a href="https://x.com/?lang=es">
+        <img src="img/signo-de-twitter.png" alt="twitter" width="40px">
+    </a>
+
+    <a href="https://www.whatsapp.com/?lang=es_LA">
+        <img src="img/whatsapp.png" alt="whatsapp" width="40px">
+    </a>
+
+    <a href="https://www.messenger.com/?locale=es_ES">
+        <img src="img/mensajero.png" alt="messenger" width="40px">
+    </a>
+      
+    <a href="https://www.twitch.tv/">
+        <img src="img/social.png" alt="twitch" width="40px">
+    </a>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+</html>
